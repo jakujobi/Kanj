@@ -46,9 +46,8 @@ function generateHTML(hospitals) {
                             </ul>
                          </div>
                         </div>
-                        </section>`;
+                    </section>`;
     });
-    html += `<!-- END OF REPLACEMENT -->`;
     return html;
 }
 
@@ -60,7 +59,7 @@ async function appendHospitalsToListFile(latitude, longitude, radius) {
             console.error('Error reading file:', err);
             return;
         }
-        const modifiedHTML = data.replace(/<div id="wrapper">[\s\S]*?<!-- END OF REPLACEMENT -->/, `<div id="wrapper">\n${html}\n</div>`); // Replace content within the wrapper div
+        const modifiedHTML = data.replace(/<div id="wrapper">[\s\S]*?<\/div>/, `<div id="wrapper">\n${html}\n</div>`);
         fs.writeFile(filePath, modifiedHTML, 'utf8', (err) => {
             if (err) {
                 console.error('Error writing file:', err);
