@@ -1,0 +1,24 @@
+<!-- dashboard.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Furfolio - Dashboard</title>
+    <link rel="stylesheet" href="css/dashboard.css">
+</head>
+<body>
+    <header>
+        <div class="profile">John Doe</div>
+        <nav>
+            <ul>
+                <li><a href="/dashboard/schedule_appt">Schedule an appointment</a></li>
+                <li><a href="/dashboard/my_pets">My Pets</a></li>
+                <li><a href="/dashboard/appointments">Future Appointments</a></li>
+                <li><a href="/dashboard/medications">Medications List</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>   </main>
+</body>
+</html>
