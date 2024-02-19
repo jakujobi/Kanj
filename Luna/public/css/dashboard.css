@@ -1,0 +1,32 @@
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #f0f0f0;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between; /* Align profile and nav to opposite ends */
+}
+
+.profile {
+    /* Styles for the profile section */
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px; /* Adjust spacing between tabs */
+}
+
+nav ul li:last-child {
+    margin-right: 0; /* Remove margin for the last tab */
+}

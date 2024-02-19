@@ -1,0 +1,5 @@
+Orange = #ff5f1f
+Light orange = #ffdcb7
+Next orange = #ffa366
+Purple = #800080
+Light purple = #cb9aa3
